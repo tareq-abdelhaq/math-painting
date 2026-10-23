@@ -1,0 +1,33 @@
+Description: It's a python application that let's users generate an image which is a canvas area with shapes drawn on it.
+
+The app takes inputs from users regarding the shapes they wanna draw and the background color surface of the canvas board. It asks the user to enter the background color of the image, the shape name they wanna draw - rectangles and squares - with information about each shape.
+
+For rectangles, the app asks for x,y point to start drawing of it, width, height, and the intensity of RGB colors to fill the rectangle shape color.
+
+For squares, the app asks for x,y point to start drawing of it, side length, and the intensity of RGB colors to fill the shape color.
+
+The app keeps asking the users for shapes until they type exit to exit the application, once the app exits, an image is generated with the requested shapes.
+
+
+
+Objects:
+
+1. Canvas
+    - width
+    - height
+    - color
+    - make_image(path)
+
+2. Shape
+    - x
+    - y
+    - color
+
+3. Rectangle
+    - width
+    - height
+    - draw(canvas)
+
+4. Square
+    - side
+    - draw(canvas)
